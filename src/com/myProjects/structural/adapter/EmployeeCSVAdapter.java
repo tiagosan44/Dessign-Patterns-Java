@@ -10,21 +10,21 @@ public class EmployeeCSVAdapter implements Employee{
 
     @Override
     public String getId() {
-        return null;
+        return this.instance.getCc() + "";
     }
 
     @Override
     public String getName() {
-        return null;
+        return this.instance.getName();
     }
 
     @Override
     public String getLastName() {
-        return null;
+        return this.instance.getLastName();
     }
 
     @Override
     public String getEmail() {
-        return null;
+        return this.instance.getEmail();
     }
 }

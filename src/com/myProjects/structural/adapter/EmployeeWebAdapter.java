@@ -4,7 +4,8 @@ public class EmployeeWebAdapter implements Employee {
 
     private EmployeeWeb instance;
 
-    public EmployeeWebAdapter(EmployeeWeb employeeWeb) {
+    public EmployeeWebAdapter(EmployeeWeb instance) {
+        this.instance = instance;
     }
 
     @Override

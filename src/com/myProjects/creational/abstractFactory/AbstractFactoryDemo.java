@@ -1,10 +1,10 @@
-package com.myProjects.creational.abstractFactory.visa;
+package com.myProjects.creational.abstractFactory;
 
 import com.myProjects.creational.abstractFactory.CardType;
 import com.myProjects.creational.abstractFactory.CreditCard;
 import com.myProjects.creational.abstractFactory.CreditCardFactory;
 
-public class AbstracFactoryDemo {
+public class AbstractFactoryDemo {
 
     public static void main(String[] args) {
 
